@@ -17,7 +17,6 @@ DPP
 ## Highlights
 1. 处理多样性问题，在启发式方法后，进阶办法是走形式化的模型，本文使用DPP；
 1. 用session长停留来衡量用户满意度，简单的根据相似度卡阈值或者降权，-0.05% ~ -0.41%之间，DPP +0.63%，Deep-DPP + 1.72%；
-1. 
 
 ## Problem
 1. 在线推荐系统很容易出现重复，因为相同主题的item容易得到相同的质量分、点击率；
@@ -41,10 +40,10 @@ DPP
 1. 用到的输入包括：a) 黑盒化的pointwise的质量分q\[i\]；b) 黑盒化的pair-wise的距离衡量D\[i, j\]，这个距离不需要是一个严格的概率，可以是Jaccard距离等；
 ### DPP方法
 1. DPP是一种子集概率函数，对于给定集合的每个子集，会给出一个非零估值，并且这些估值的和为1； 
-1. 如果定义正样本集的下标集为Y，则dpp的一种定义为 score(Y) = det(L[Y])，dpp(Y) = score(Y) / sum(score(all Y))，det是行列式，Y是一个矩阵，L[i,i] = q[i]\*q[i]，L[i,j (i!=j)] = dis\[i, j\]；
+1. 如果定义正样本集的下标集为Y，则dpp的一种定义为 score(Y) = det(L[Y])，dpp(Y) = score(Y) / sum(score(all Y))，det是行列式，Y是一个矩阵，L[i,i] = q[i]\*q[i]，L[i,j (i!=j)] = sim\[i, j\]；
 1. 这里出现了一个很漂亮的性质：sum(det(all Y)) = det(L + I)，即分母项可以快速求得，不用算排列组合的复杂度，前提是L是PSD的；
-1. 在|Y|==2的情况下，L的行列式实际上是q1\*q2 - dis[1,2]*dis[2,1]，即质量的乘积减去距离的乘积；高维的情况会更复杂一些，但实际上会类似；
-1. 进一步的，定义dis\[i,j\] = alpha \* q\[i\] \* q\[j\] \* exp(-D\[i,j\]/(2\*sigma\*sigma))；alpha=1等价于RBF；0<alpha<1时；注意按照DPP的定义，要求L是一个半正定矩阵，alpha不能太大，所以需要一些trick来保证；
+1. 在|Y|==2的情况下，L的行列式实际上是q1\*q2 - sim[1,2]*sim[2,1]，即质量的乘积减去相似度的乘积；高维的情况会更复杂一些，但实际上会类似；也就是说跟质量分正相关，跟相似度负相关；
+1. 进一步的，定义sim\[i,j\] = alpha \* q\[i\] \* q\[j\] \* exp(-D\[i,j\]/(2\*sigma\*sigma))；alpha=1等价于RBF；0<alpha<1时；注意按照DPP的定义，要求L是一个半正定矩阵，alpha不能太大，所以需要一些trick来保证；
 1. 注意论文4.2节中一个用词晦涩导致难以理解的坑：`"consider" all items to be more diverse`，这里的consider不是“导致”，而是“当认为”的意思；即当我们认为候选集比较多样的时候，可以设置alpha比较小；反之当我们认为候选集多样性不足的时候，应该把alpha设大，来增加多样性的贡献；
 ### 训练方法及推广
 1. 这个模型只有alpha sigma两个参数，所以训练模型只需要grid search即可；训练数据用一天的youtube mobile日志，大约40k；
