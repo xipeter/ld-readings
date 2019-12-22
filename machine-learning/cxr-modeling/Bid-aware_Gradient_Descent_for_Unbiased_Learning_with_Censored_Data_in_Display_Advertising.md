@@ -2,7 +2,9 @@
 [pdf](https://www.kdd.org/kdd2016/papers/files/adp0028-zhangA.pdf)
 
 ## logs
-* [ 2019-12-18 09:57:22 ] hold
+* [ 2019-12-22 22:50:50 ] pause
+* [ 2019-12-22 22:07:49 ] resume
+* [ 2019-12-18 09:57:22 ] pause
 * [ 2019-12-18 09:08:51 ] begin
 
 ## tags
