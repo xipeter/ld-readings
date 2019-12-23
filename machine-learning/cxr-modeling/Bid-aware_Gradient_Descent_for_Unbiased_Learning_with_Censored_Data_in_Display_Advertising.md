@@ -2,6 +2,8 @@
 [pdf](https://www.kdd.org/kdd2016/papers/files/adp0028-zhangA.pdf)
 
 ## logs
+* [ 2019-12-23 09:43:07 ] pause
+* [ 2019-12-23 09:17:25 ] resume
 * [ 2019-12-22 22:50:50 ] pause
 * [ 2019-12-22 22:07:49 ] resume
 * [ 2019-12-18 09:57:22 ] pause
@@ -37,3 +39,4 @@
 ## References
 * [知乎-三疯兰尼斯特-Aside: DSP的bidding算法](https://zhuanlan.zhihu.com/p/32664649)
 * [知乎-三疯兰尼斯特-Algorithm-LR Bias和Q分布](https://zhuanlan.zhihu.com/p/31529643)
+* [知乎-Whatever-【生存模型】Kaplan–Meier曲线是如何画出来的](https://zhuanlan.zhihu.com/p/97637272)
