@@ -1,6 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
+* [Statistics](statistics/readme.md)
+    * [Survival Analysis.md](statistics/survival_analysis.md)
 * [Machine Learning](machine-learning/README.md)
     * [Ranking Diversity](machine-learning/ranking-diversity/readme.md)
         * [practical diversified recommendations on youtube with determinantal point processes](machine-learning/ranking-diversity/practical-diversified-recommendations-on-youtube-with-determinantal-point-processes.md)

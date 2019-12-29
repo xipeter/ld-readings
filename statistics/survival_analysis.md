@@ -1,12 +1,16 @@
 # Survival Analysis
 
 ## logs
-* [ 2019-12-08 16:21:16 ] end
-* [ 2019-12-08 16:21:10 ] begin
+* [ 2019-12-29 16:15:11 ] begin
 
-## tags
-
-## 
+## Something
+那么这里就做一个
 
 ## References
-* [知乎-专栏-生存分析简介-Survival Analysis (0): Introduction](https://zhuanlan.zhihu.com/p/97501655)
+### 知乎专栏-生存分析简介
+1.  [Survival Analysis (0): Introduction](https://zhuanlan.zhihu.com/p/97501655)
+
+1. [Survival Analysis (1): Preliminary](https://zhuanlan.zhihu.com/p/97501833)
+
+1. [Survival Analysis (2): Likelihood](https://zhuanlan.zhihu.com/p/97548938)
+
