@@ -1,3 +1,29 @@
 {
-      "plugins": ["mathjax"]
+      "plugins": ["mathjax", "code", "github", "-sharing", "sharing-plus", "donate", "pageview-count", "popup", "back-to-top-button", "chapter-fold", "icp"],
+      "pluginsConfig" : {
+        "code" : {
+          "copyButtons" : true
+        }, 
+        "github" : {
+          "url" : "https://github.com/littleDing/ld-readings" 
+        }, 
+        "sharing" : {
+          "google" : true, 
+          "facebook" : true, 
+          "qq" : true, 
+          "weibo" : true,
+          "all": [
+              "douban", "facebook", "google", "instapaper", "linkedin","twitter", "weibo", 
+              "messenger","qq", "qzone","viber","whatsapp"
+          ]
+        }, 
+        "donate" : {
+           "title" : "原创不易，请我喝杯奶茶吧 : )", "button" : "赏", 
+           "wechat" : "./globals/wechat_donate.jpeg", "wechatText": "微信打赏", 
+           "alipay" : "./globals/alipay_donate.jpeg", "alipayText": "支付宝打赏"
+        }, 
+        "icp" : {
+          "number" : "京ICP备17022695号-2"
+        }
+      }
 }
