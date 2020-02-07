@@ -1,5 +1,5 @@
 {
-      "plugins": ["mathjax", "code", "github", "-sharing", "sharing-plus", "donate", "pageview-count", "popup", "back-to-top-button", "chapter-fold", "icp"],
+      "plugins": ["mathjax", "code", "github", "-sharing", "sharing-plus", "donate", "pageview-count", "popup", "back-to-top-button", "chapter-fold", "icp", "baidu-v3"],
       "pluginsConfig" : {
         "code" : {
           "copyButtons" : true
@@ -24,6 +24,9 @@
         }, 
         "icp" : {
           "number" : "京ICP备17022695号-2"
+        }, 
+        "baidu" : {
+          "token" : "9b7faa4ddab1ea8f029709157495f75b"
         }
       }
 }
