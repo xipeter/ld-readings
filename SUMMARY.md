@@ -3,7 +3,9 @@
 * [Introduction](README.md)
 * [Statistics](statistics/readme.md)
     * [Survival Analysis.md](statistics/survival_analysis.md)
-* [Machine Learning](machine-learning/README.md)
+* [Machine Learning](machine-learning/readme.md)
+    * [Getting Started](getting-started/readme.md)
+        * [getting started with machine learning for MBA studuents](machine-learning/getting-started/getting-started-with-machine-learning-for-MBA-studuents.md)
     * [Ranking Diversity](machine-learning/ranking-diversity/readme.md)
         * [practical diversified recommendations on youtube with determinantal point processes](machine-learning/ranking-diversity/practical-diversified-recommendations-on-youtube-with-determinantal-point-processes.md)
     * [CXR Modeling](machine-learning/cxr-modeling/readme.md)
@@ -14,7 +16,10 @@
 * [User Growth](user-growth/readme.md)
     * [survays](user-growth/survays/readme.md)
         * [快手增长策略调研](user-growth/survays/kuai.md)
-* [Tools](tools/README.md)
+* [Finance]
+    * [Arbitrage]
+        * [跨期套利综述](finance/arbitrage/Survay-Calendar-Spread-Arbitrage.md)
+* [Tools](tools/readme.md)
     * [gitbook](tools/gitbook.md)
     * [nginx](tools/nginx.md)
     * [apache](tools/apache.md)
