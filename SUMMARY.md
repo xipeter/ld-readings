@@ -4,7 +4,7 @@
 * [Statistics](statistics/readme.md)
     * [Survival Analysis.md](statistics/survival_analysis.md)
 * [Machine Learning](machine-learning/readme.md)
-    * [Getting Started](getting-started/readme.md)
+    * [Getting Started](machine-learning/getting-started/readme.md)
         * [getting started with machine learning for MBA studuents](machine-learning/getting-started/getting-started-with-machine-learning-for-MBA-studuents.md)
     * [Ranking Diversity](machine-learning/ranking-diversity/readme.md)
         * [practical diversified recommendations on youtube with determinantal point processes](machine-learning/ranking-diversity/practical-diversified-recommendations-on-youtube-with-determinantal-point-processes.md)
