@@ -1,11 +1,6 @@
 # Optimized Cost per Click in Taobao Display Advertising
 [pdf](https://arxiv.org/pdf/1703.02091.pdf)
 
-## logs
-* [ 2020-01-27 23:52:57 ] end
-* [ 2020-01-27 17:31:18 ] resume
-* [ 2020-01-21 17:43:11 ] pause
-* [ 2020-01-21 16:43:11 ] begin
 
 ## tags
 * Alibaba
@@ -109,3 +104,8 @@
 * [Facebook的oCPM手册](https://blog.adstage.io/2014/06/16/learn-about-facebook-ocpm-bidding)
 
 
+## logs
+* [ 2020-01-27 23:52:57 ] end
+* [ 2020-01-27 17:31:18 ] resume
+* [ 2020-01-21 17:43:11 ] pause
+* [ 2020-01-21 16:43:11 ] begin

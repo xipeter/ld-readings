@@ -1,14 +1,6 @@
 # practical diversified recommendations on youtube with determinantal point processes
 [pdf](https://jgillenw.com/cikm2018.pdf)
 
-## logs
-* [ 2019-12-10 14:57:32 ] finish
-* [ 2019-12-10 14:18:14 ] begin
-* [ 2019-12-10 13:28:02 ] hold
-* [ 2019-12-10 13:00:41 ] begin
-* [ 2019-12-08 17:35:05 ] hold
-* [ 2019-12-08 16:24:17 ] begin
-
 ## tags
 Google CIKM 2018
 DPP
@@ -78,4 +70,16 @@ DPP
 
 
 ## References
+
+
+
+
+## logs
+* [ 2019-12-10 14:57:32 ] finish
+* [ 2019-12-10 14:18:14 ] begin
+* [ 2019-12-10 13:28:02 ] hold
+* [ 2019-12-10 13:00:41 ] begin
+* [ 2019-12-08 17:35:05 ] hold
+* [ 2019-12-08 16:24:17 ] begin
+
 

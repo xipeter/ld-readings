@@ -1,9 +1,6 @@
 # Entire Space Multi-Task Model- An Effective Approach for Estimating Post-Click Conversion Rate
 [pdf](https://arxiv.org/pdf/1804.07931.pdf)
 
-## logs
-* [ 2019-12-15 16:25:00 ] ends
-* [ 2019-12-15 15:05:22 ] begin
 
 ## tags
 * Alibaba 
@@ -65,3 +62,8 @@
 * [知乎-杨旭东-CVR预估的新思路：完整空间多任务模型](https://zhuanlan.zhihu.com/p/37562283)
 * [简书-妖皇裂天-论文阅读](https://www.jianshu.com/p/07859f9228e4)
 * [CSDN-Thinkgamer-【论文-完整空间多任务模型】Entire Space Multi-Task Model](https://blog.csdn.net/gamer_gyt/article/details/95014206)
+
+
+## logs
+* [ 2019-12-15 16:25:00 ] ends
+* [ 2019-12-15 15:05:22 ] begin
