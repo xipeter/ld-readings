@@ -19,7 +19,7 @@
 1. DSP在参与竞价的时候，要求在整个流量空间上预估CTR和CVR，但只能收集到曝光后的数据，会存在样本分布有偏，价格高的样本因为胜出概率大，收集到的概率也大；
 1. 传统的机器学习有应对missing data的方法，但是需要一个先验；折中的办法是做一些随机出价；
 
-! [bias](bid-aware/figure1-biased.png)
+![bias](bid-aware/figure1-biased.png)
 
 ## Related work
 1. 用户反馈预估，也就是CTR/CVR预估；
