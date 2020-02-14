@@ -11,6 +11,8 @@
     * [CXR Modeling](machine-learning/cxr-modeling/readme.md)
         * [Entire Space Multi-Task Model- An Effective Approach for Estimating Post-Click Conversion Rate](machine-learning/cxr-modeling/Entire_Space_Multi-Task_Model-_An_Effective_Approach_for_Estimating_Post-Click_Conversion_Rate.md)
         * [Bid-aware Gradient Descent for Unbiased Learning with Censored Data in Display Advertising](machine-learning/cxr-modeling/Bid-aware_Gradient_Descent_for_Unbiased_Learning_with_Censored_Data_in_Display_Advertising.md)
+    * [Uplift modelling](machine-learning/uplift-modeling/readme.md)
+        * [Uplift Modeling with Multiple Treatments and General Response Types](machine-learning/uplift-modeling/Uplift_Modeling_with_Multiple_Treatments_and_General_Response_Types.md)
 * [Computational Advertising](computational-advertising/readme.md)
     * [Bid  Optimization](computational-advertising/bid-optimization/readme.md)
         * [Statistical Arbitrage Mining for Display Advertising](computational-advertising/bid-optimization/Statistical_Arbitrage_Mining_for_Display_Advertising.md)
