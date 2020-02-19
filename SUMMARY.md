@@ -13,6 +13,8 @@
         * [Bid-aware Gradient Descent for Unbiased Learning with Censored Data in Display Advertising](machine-learning/cxr-modeling/Bid-aware_Gradient_Descent_for_Unbiased_Learning_with_Censored_Data_in_Display_Advertising.md)
     * [Uplift modelling](machine-learning/uplift-modeling/readme.md)
         * [Uplift Modeling with Multiple Treatments and General Response Types](machine-learning/uplift-modeling/Uplift_Modeling_with_Multiple_Treatments_and_General_Response_Types.md)
+    * [Multi Task](machine-learning/multi-task/readme.md)
+        * [Modeling Task Relationships in Multi-task Learning with Multi-gate Mixture-of-Experts](machine-learning/multi-task/Modeling_Task_Relationships_in_Multi-task_Learning_with_Multi-gate_Mixture-of-Experts.md)
 * [Computational Advertising](computational-advertising/readme.md)
     * [Bid  Optimization](computational-advertising/bid-optimization/readme.md)
         * [Statistical Arbitrage Mining for Display Advertising](computational-advertising/bid-optimization/Statistical_Arbitrage_Mining_for_Display_Advertising.md)
